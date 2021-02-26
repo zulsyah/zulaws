@@ -1,0 +1,33 @@
+{
+  "name": "zulaws",
+  "version": "1.0.0",
+  "description": "website for zul public website",
+  "main": "zulaws.js",
+  "scripts": {
+    "start": "node zulaws.js"
+  },
+  "author": "zul",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.5.3",
+    "bootstrap": "^3.4.1",
+    "eventemitter2": "^6.4.3",
+    "express": "^4.17.1",
+    "express-php-fpm": "^2.0.2",
+    "font-awesome": "^4.7.0",
+    "handlebars": "^4.0.11",
+    "jquery": "^3.5.1",
+    "keyboardteleopjs": "^1.0.4",
+    "leaflet": "^1.7.1",
+    "mqtt": "^4.2.6",
+    "mysql": "^2.18.1",
+    "nipplejs": "^0.8.7",
+    "p5": "^1.1.9",
+    "pubnub": "^4.29.10",
+    "roslib": "^1.1.0",
+    "scaledrone-node": "^1.5.0",
+    "semantic-ui-css": "^2.3.1",
+    "simplewebrtc": "^3.0.1",
+    "webrtc": "^1.14.1"
+  }
+}
