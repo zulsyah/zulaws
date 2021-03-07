@@ -33,12 +33,6 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="career.php">CAREER</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#callMe">CALL ME</a>
-                </li> -->
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="projects.php">PROJECTS</a>
-                </li>
 
                 <!-- Dropdown Menu -->          
                 <!-- <li class="nav-item dropdown">

@@ -188,14 +188,26 @@
                                 <div class="item">
                                     <div id="headingTwo">
                                         <span class="collapsed" data-toggle="collapse" data-target="#collapsePerceptionTwo" aria-expanded="false" aria-controls="collapsePerceptionTwo" role="button">
-                                            <span class="circle-numbering">2</span><span class="accordion-title">Reserved</span>
+                                            <span class="circle-numbering">2</span><span class="accordion-title">Deep Leaning based vision perception</span>
                                         </span>
                                     </div>
                                     <div id="collapsePerceptionTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTwo">
                                         <ul class="list-unstyled li-space-lg indent-technology ">
                                             <li class="media">
                                                 <i class="fas fa-square"></i>
-                                                <div class="media-body">Reserved</div>
+                                                <div class="media-body">Driveable space detection</div>
+                                            </li>
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="media-body">Object classifications and dynamic object tracking</div>
+                                            </li>
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="media-body">Traffic sign recognition</div>
+                                            </li>
+                                            <li class="media">
+                                                <i class="fas fa-square"></i>
+                                                <div class="media-body">Traffic light recognition</div>
                                             </li>
                                         </ul>
                                     </div>
@@ -212,10 +224,7 @@
                     <div id="drivebywire" class="accordion">
                         <h2>Drive-by-wire</h2>
                         <div class="area-1">
-                            <video width="100%" autoplay loop muted id="area-1">
-                                <source src="videos/perception.mp4" type="video/mp4">
-                                <source src="images/videoo.webm" type="video/webm">
-                            </video>
+                            <img class="img-fluid img-center" src="images/mooav-ui.png" alt="alternative">
                         </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2">
                             <!-- Accordion -->
                             <div class="accordion-container" id="accordionThree">
@@ -318,7 +327,7 @@
                     </div> <!-- end of accordion -->
                     <!-- end of Perception -->
                 
-                    <a class="btn-outline-reg back" href="index.html">BACK</a>
+                    <a class="btn-outline-reg back" href="index.php">BACK</a>
                 </div> <!-- end of col-->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -332,7 +341,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>About Us</span>
+                        <a href="index.php">Home</a><i class="fa fa-angle-double-right"></i><span>About Us</span>
                     </div> <!-- end of breadcrumbs -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -342,66 +351,7 @@
 
     
     <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="text-container about">
-                        <h4>Few Words About Aria</h4>
-                        <p class="white">We're passionate about creating the best mobile apps for personal develop passionate about creating the best mobile apps for. Personal develop passionate about creating the best mobile apps.</p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                        <h4>Links</h4>
-                        <ul class="list-unstyled li-space-lg white">
-                            <li>
-                                <a class="white" href="#your-link">startupguide.com</a>
-                            </li>
-                            <li>
-                                <a class="white" href="terms-conditions.html">Terms & Conditions</a>
-                            </li>
-                            <li>
-                                <a class="white" href="privacy-policy.html">Privacy Policy</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                        <h4>Tools</h4>
-                        <ul class="list-unstyled li-space-lg">
-                            <li>
-                                <a class="white" href="#your-link">startupguide.com</a>
-                            </li>
-                            <li>
-                                <a class="white" href="terms-conditions.html">Terms & Conditions</a>
-                            </li>
-                            <li class="media">
-                                <a class="white" href="privacy-policy.html">Privacy Policy</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                        <h4>Partners</h4>
-                        <ul class="list-unstyled li-space-lg">
-                            <li>
-                                <a class="white" href="#your-link">startupguide.com</a>
-                            </li>
-                            <li>
-                                <a class="white" href="terms-conditions.html">Terms & Conditions</a>
-                            </li>
-                            <li>
-                                <a class="white" href="privacy-policy.html">Privacy Policy</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
+    <?php include_once 'php/footer.php'; ?>
     <!-- end of footer -->
 
 

@@ -34,17 +34,6 @@
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
-    <!-- Preloader -->
-	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
-    </div>
-    <!-- end of preloader -->
-    
-
     <!-- Navbar -->
     <?php include_once 'php/navbar.php'; ?>
     <!-- end of navbar -->
@@ -69,7 +58,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Career</span>
+                        <a href="index.php">Home</a><i class="fa fa-angle-double-right"></i><span>Career</span>
                     </div> <!-- end of breadcrumbs -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -77,14 +66,15 @@
     </div> <!-- end of ex-basic-1 -->
     <!-- end of breadcrumbs -->
 
-    <div id="callMe" class="form-1">
+    <div id="career" class="form-1">
         <div class="container">
+            <h2 class="black">Have Us Contact You By Filling And Submitting The Form</h2>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <h2 class="white">Have Us Contact You By Filling And Submitting The Form</h2>
-                        <p class="white">We are seeking talented and ambitious people that can contribute to create our next generation autonomous mover solutions. We are hiring experienced scientists and engineers to develop perception, localisation and navigation software components for the autonomous mover. You will be working alongside our founders, researchers and engineers to design, build, and deploy our solutions. </p>
-                        <ul class="list-unstyled li-space-lg white">
+                        
+                        <p class="black">We are seeking talented and ambitious people that can contribute to create our next generation autonomous mover solutions. We are hiring experienced scientists and engineers to develop perception, localisation and navigation software components for the autonomous mover. You will be working alongside our founders, researchers and engineers to design, build, and deploy our solutions. </p>
+                        <ul class="list-unstyled li-space-lg black">
                             <li class="media">
                                 <i class="fas fa-square"></i>
                                 <div class="media-body">It's very easy just fill in the form so we can call</div>
@@ -102,7 +92,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                    
-                    <!-- Call Me Form -->
+                    <!-- Career Form -->
                     <form id="callMeForm" data-toggle="validator" data-focus="false">
                         <div class="form-group">
                             <input type="text" class="form-control-input" id="lname" name="lname" required>
@@ -122,14 +112,14 @@
                         <div class="form-group">
                             <select class="form-control-select" id="lselect" required>
                                 <option class="select-option" value="" disabled selected>Interested in...</option>
-                                <option class="select-option" value="Off The Ground">Off The Ground</option>
-                                <option class="select-option" value="Accelerated Growth">Accelerated Growth</option>
-                                <option class="select-option" value="Market Domination">Market Domination</option>
+                                <option class="select-option" value="Off The Ground">Autonomous Solution</option>
+                                <option class="select-option" value="Accelerated Growth">Jobs and career</option>
+                                <option class="select-option" value="Market Domination">Talks</option>
                             </select>
                             <div class="help-block with-errors"></div>
                         </div>
-                        <div class="form-group checkbox white">
-                            <input type="checkbox" id="lterms" value="Agreed-to-Terms" name="lterms" required>I agree with eMooVit's stated <a class="white" href="privacy-policy.html">Privacy Policy</a> and <a class="white" href="terms-conditions.html">Terms & Conditions</a>
+                        <div class="form-group checkbox black">
+                            <input type="checkbox" id="lterms" value="Agreed-to-Terms" name="lterms" required>I agree with eMooVit's stated <a class="black" href="privacy-policy.html">Privacy Policy</a> and <a class="black" href="terms-conditions.html">Terms & Conditions</a>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
@@ -139,13 +129,13 @@
                             <div id="lmsgSubmit" class="h3 text-center hidden"></div>
                         </div>
                     </form>
-                    <!-- end of call me form -->
+                    <!-- end of career form -->
                     
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of form-1 -->
-    <!-- end of call me -->
+    <!-- end of career -->
 
     <!-- Breadcrumbs -->
     <div class="ex-basic-1">
@@ -153,7 +143,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Contact Us</span>
+                        <a href="index.php">Home</a><i class="fa fa-angle-double-right"></i><span>Career</span>
                     </div> <!-- end of breadcrumbs -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->

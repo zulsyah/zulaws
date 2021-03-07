@@ -37,6 +37,8 @@
     <!-- Preloader -->
 	<div class="spinner-wrapper">
         <div class="spinner">
+        <img src="images/emoovit-logo.png" class="center" alt="alternative">
+            <br></br>
             <div class="bounce1"></div>
             <div class="bounce2"></div>
             <div class="bounce3"></div>
@@ -56,7 +58,7 @@
                     <div class="col-lg-12">
                         <div class="text-container">
                             <h1>AUTONOMOUS <span id="js-rotating">CAR, ROBOT, SOLUTIONS</span></h1>
-                            <p class="p-heading p-large">eMooVit.ai is a high-tech company which business focus on developed and commercial of autonomous vehicle software solution in Malaysia</p>
+                            <p class="p-heading p-large">eMooVit is a high-tech company which business focus on developed and commercial of autonomous vehicle software solution in Malaysia</p>
                             <a class="btn-solid-lg page-scroll" href="#intro">DISCOVER</a>
                         </div>
                     </div> <!-- end of col -->
@@ -73,7 +75,6 @@
                 <div class="col-lg-5">
                     <div class="text-container">
                         <h2>eMooVit provides cost-effective and internet-enabled autonomous software solutions that can be utilised on any vehicle or platform</h2>
-                        <!-- <p>eMooVit provides cost-effective and internet-enabled autonomous software solutions that can be utilised on any vehicle or platform.</p> -->
                         <p class="testimonial-text">"[Our system] will cater for customers’ seating needs, just like Grab, but the difference is that it will eliminate human error. Another difference is that we will focus on on-demand mobility-as-a-service. And since the system does not rely on human drivers, users can demand mobility around the clock."</p>
                         <div class="testimonial-author">Dr. Hairi Zamzuri - MD</div>
                     </div> <!-- end of text-container -->

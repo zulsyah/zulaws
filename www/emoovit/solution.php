@@ -58,7 +58,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Solutions</span>
+                        <a href="index.php">Home</a><i class="fa fa-angle-double-right"></i><span>Solutions</span>
                     </div> <!-- end of breadcrumbs -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -71,53 +71,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="text-container">
-                        <p>We make solutions for various products</p>
-                      
-                    </div> <!-- end of text-container-->
-                                       
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="text-container last">
-                                <h3>Vision</h3>
-                                <p>To be a leading autonomous technology solution provider in Southeast Asia</p>
-                                <h3>Mission</h3>
-                                <p>To provide a first and last mile solutions for urban cities transportation</p>
-
-                                <div class="text-container">
-                                    <h3>Target Market</h3>
-                                    <ul class="list-unstyled li-space-lg indent">
-                                        <li class="media">
-                                            <i class="fas fa-square"></i>
-                                            <div class="media-body">Hotels, resorts and theme parks</div>
-                                        </li>
-                                        <li class="media">
-                                            <i class="fas fa-square"></i>
-                                            <div class="media-body">Commercial offices and residential estaets</div>
-                                        </li>
-                                        <li class="media">
-                                            <i class="fas fa-square"></i>
-                                            <div class="media-body">First and last mile solution</div>
-                                        </li>
-                                        <li class="media">
-                                            <i class="fas fa-square"></i>
-                                            <div class="media-body">Busness to business</div>
-                                        </li>
-                                    </ul>
-                                </div> <!-- end of text-container -->
-                            </div> <!-- end of text container -->
-                        </div> <!-- end of col-->
-                        <div class="col-md-6">
-
-                            <!-- Privacy Form -->
-                            <div class="form-container">
-                                <img class="img-fluid img-center" src="images/car.jpg" alt="alternative">
-                            </div> <!-- end of form container -->
-                            <!-- end of privacy form -->
-
-                        </div> <!-- end of col--> 
-                    </div> <!-- end of row -->
-                    <a class="btn-outline-reg back" href="index.html">BACK</a>
+                    
+                    <img class="img-fluid img-center" src="images/solutions.png" alt="alternative">
+                    
+                    <a class="btn-outline-reg back" href="index.php">BACK</a>
                 </div> <!-- end of col-->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -131,7 +88,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>Solutions</span>
+                        <a href="index.php">Home</a><i class="fa fa-angle-double-right"></i><span>Solutions</span>
                     </div> <!-- end of breadcrumbs -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -141,66 +98,7 @@
 
     
     <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="text-container about">
-                        <h4>Few Words About Aria</h4>
-                        <p class="white">We're passionate about creating the best mobile apps for personal develop passionate about creating the best mobile apps for. Personal develop passionate about creating the best mobile apps.</p>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                        <h4>Links</h4>
-                        <ul class="list-unstyled li-space-lg white">
-                            <li>
-                                <a class="white" href="#your-link">startupguide.com</a>
-                            </li>
-                            <li>
-                                <a class="white" href="terms-conditions.html">Terms & Conditions</a>
-                            </li>
-                            <li>
-                                <a class="white" href="privacy-policy.html">Privacy Policy</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                        <h4>Tools</h4>
-                        <ul class="list-unstyled li-space-lg">
-                            <li>
-                                <a class="white" href="#your-link">startupguide.com</a>
-                            </li>
-                            <li>
-                                <a class="white" href="terms-conditions.html">Terms & Conditions</a>
-                            </li>
-                            <li class="media">
-                                <a class="white" href="privacy-policy.html">Privacy Policy</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                        <h4>Partners</h4>
-                        <ul class="list-unstyled li-space-lg">
-                            <li>
-                                <a class="white" href="#your-link">startupguide.com</a>
-                            </li>
-                            <li>
-                                <a class="white" href="terms-conditions.html">Terms & Conditions</a>
-                            </li>
-                            <li>
-                                <a class="white" href="privacy-policy.html">Privacy Policy</a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
+    <?php include_once 'php/footer.php'; ?>
     <!-- end of footer -->
 
 

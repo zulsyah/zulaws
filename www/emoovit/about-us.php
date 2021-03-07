@@ -58,7 +58,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>About Us</span>
+                        <a href="index.php">Home</a><i class="fa fa-angle-double-right"></i><span>About Us</span>
                     </div> <!-- end of breadcrumbs -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -122,7 +122,7 @@
                         <!-- end of privacy form -->
 
                     </div> <!-- end of row -->
-                    <a class="btn-outline-reg back" href="index.html">BACK</a>
+                    <a class="btn-outline-reg back" href="index.php">BACK</a>
                 </div> <!-- end of col-->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -136,7 +136,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumbs">
-                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>About Us</span>
+                        <a href="index.php">Home</a><i class="fa fa-angle-double-right"></i><span>About Us</span>
                     </div> <!-- end of breadcrumbs -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->

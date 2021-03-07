@@ -2,6 +2,12 @@
    Author: Inovatik
    Created: Jul 2019
    Description: Custom JS file
+
+   Modified by Zul for eMooVit Landing Page
+   Author: Zul
+   Email: zul@moovita.com
+   Created: 7 March 2021
+   Description: Add Custom JS Script under Aria JS Script
 */
 
 
@@ -360,3 +366,13 @@
 	});
 
 })(jQuery);
+
+var map = L.map('emoovitmap').setView([51.505, -0.09], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+L.marker([51.5, -0.09]).addTo(map)
+    .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+    .openPopup();
