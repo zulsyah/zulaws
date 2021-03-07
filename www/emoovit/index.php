@@ -71,17 +71,20 @@
     <!-- Intro -->
     <div id="intro" class="basic-1">
         <div class="container">
+            <h2>eMooVit provides cost-effective and internet-enabled autonomous software solutions that can be utilised on any vehicle or platform</h2>
+                        
             <div class="row">
                 <div class="col-lg-5">
                     <div class="text-container">
-                        <h2>eMooVit provides cost-effective and internet-enabled autonomous software solutions that can be utilised on any vehicle or platform</h2>
+                        <br></br>
                         <p class="testimonial-text">"[Our system] will cater for customers’ seating needs, just like Grab, but the difference is that it will eliminate human error. Another difference is that we will focus on on-demand mobility-as-a-service. And since the system does not rely on human drivers, users can demand mobility around the clock."</p>
-                        <div class="testimonial-author">Dr. Hairi Zamzuri - MD</div>
+                        <div class="testimonial-author">Dr. Hairi Zamzuri</div>
+                        <div class="testimonial-author">Managing Director at eMooVit</div>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <video width="100%" autoplay loop muted>
+                        <video width="100%" playsinline controls autoplay loop>
                             <source src="videos/video.mp4" type="video/mp4">
                             <!-- <source src="images/videoo.webm" type="video/webm"> -->
                         </video>
