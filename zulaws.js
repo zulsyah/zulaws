@@ -27,7 +27,6 @@ const options = {
 }
 
 const zul = express()
-const httpRedirect = express();
 
 zul.use("/", epf(options));
 zul.use('/scripts', express.static(`${__dirname}/node_modules/`));
@@ -37,6 +36,7 @@ zul.use('/scripts', express.static(`${__dirname}/node_modules/`));
 // });
 
 // set up a route to redirect http to https
+const httpRedirect = express();
 httpRedirect.use(function(req, res, next) {
   if(!req.secure) {
     // console.log("redirect to HTTPS");
@@ -44,7 +44,6 @@ httpRedirect.use(function(req, res, next) {
   }
   next();
 });
-
 httpRedirect.listen(80);
 
 var server = https.createServer(credentials,zul);
